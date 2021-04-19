@@ -19,10 +19,17 @@
   },
   "homepage": "https://github.com/marcin-wosinek/webpack-lazy-pdf-example#readme",
   "devDependencies": {
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^6.0.3",
+    "stream-browserify": "^3.0.0",
+    "util": "^0.12.3",
     "webpack": "^5.33.2",
     "webpack-cli": "^4.6.0"
   },
   "dependencies": {
-    "pdfkit": "^0.12.1"
+    "assert": "^2.0.0",
+    "iconv-lite": "^0.6.2",
+    "pdfkit": "^0.12.1",
+    "process": "^0.11.10"
   }
 }
